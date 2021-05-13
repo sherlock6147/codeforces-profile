@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+        min-height: 100vh;
+        min-width: 100vw;
+        padding: 0px 45px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        background-image: url("./images/Mercedes-AMG\ GT\ Black\ Series\ AMG\ magma\ beam.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.header ul{
+        display: flex;
+        width: 100%;
+        color: #fafafa;
+        list-style: none;
+        justify-content: center;
+        align-items: baseline;
+
+}
+.header ul li{
+        margin: 15px;
+}
+.header ul li h1{
+            font-size: 3em;
+
+}
+.card{
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.74);
+    color: hsl(0, 0%, 10%);
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.card #user-handle{
+    font-size: 1em;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin: 15px 0px;
+    border-radius: 5px;
+    width: 80%;
+}
+.card #submit-btn{
+        color: #fafafa;
+        background-color: indianred;
+        font-weight: 700;
+        font-size: 1em;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 5px;
+}
