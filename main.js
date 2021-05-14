@@ -8,6 +8,13 @@ function getInput() {
         var ans = document.getElementById('answer');
         console.log(data);
         ans.innerHTML = JSON.stringify(data);
+        if (data.status = 'OK') {
+            ans.innerHTML = JSON.stringify(data);
+            
+        }
+        else {
+            ans.innerHTML = "Error occured";
+        }
     };
     request.send();
 }
